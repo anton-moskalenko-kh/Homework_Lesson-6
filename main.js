@@ -14,7 +14,6 @@ function getValue(array) {
     }, 0);
     return value / (checkNumber.length-1);
 }
-console.log(getValue([5,8,11,"Text", function (){}, ""]))
 
 // Задание 3
 
