@@ -8,11 +8,11 @@ function getResult(a) {
 // Задание 2
 
 function getValue(array) {
-    let checkNumber = array.filter(item => isFinite(item));
-    let value = checkNumber.reduce(function (prev, current) {
+    const numbers = array.filter(item => isFinite(item));
+    const sum = numbers.reduce(function (prev, current) {
         return (prev + current);
     }, 0);
-    return value / (checkNumber.length-1);
+    return sum / (numbers.length - 1);
 }
 
 // Задание 3
