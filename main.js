@@ -11,10 +11,11 @@ function getValue(array) {
     const numbers = array.filter(item => isFinite(item));
     const sum = numbers.reduce(function (prev, current) {
         return (prev + current);
-    }, 0);
-    const length = numbers.length - 1;
+    });
+    const length = numbers.length;
     return sum / length;
 }
+
 
 // Задание 3
 
