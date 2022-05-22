@@ -12,7 +12,8 @@ function getValue(array) {
     const sum = numbers.reduce(function (prev, current) {
         return (prev + current);
     }, 0);
-    return sum / (numbers.length - 1);
+    const length = numbers.length - 1;
+    return sum / length;
 }
 
 // Задание 3
